@@ -159,13 +159,6 @@ class Extract_info_of_Courses():
             else:
                 file_sub = open('{}\{}-{}-en.srt'.format(self.DirDownload, count, name), 'w', encoding='utf-8')
                 r = session.get(subtitle, headers=header)
-                # for line in r.text.split('\n'):
-                #     line = line.strip()
-                #     try:
-                #         file_sub.writelines('{}\n'.format(line))
-                #     except Exception as e:
-                #         pass
-                #     _spinner(text)
                 try:
                     file_sub.write(r.text)
                 except Exception as e:

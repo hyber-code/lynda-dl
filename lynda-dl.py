@@ -39,9 +39,6 @@ def main():
     username = input('\t   Username: ')
     password = input('\t   Password: ')
     organication_login = input('\t   Url organication: ')
-    # username = '21865044169614'
-    # password = '4687'
-    # organication_login = 'https://www.lynda.com/portal/sip?org=nwpl.ca'
     urlCourses = []
     while True:
         url = input('\t   Url course: ')
@@ -64,7 +61,7 @@ def main():
     g_session().logout()
     g_session().close()
     print(fg + sd + '\t\t[' + fm + '-' + fg + '] Download .... Done')
-    time.sleep(30)
+    time.sleep(60)
     sys.exit()
 
 

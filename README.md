@@ -1,5 +1,9 @@
-# lynda-dl
+# Lynda-dl
  - A tool to download all video course in lynda.com
+# Module
+ - colorama
+ - bs4
+ - urllib
 # Usage
  - Run file lynda-dl.py
  ```

@@ -2,10 +2,6 @@ import errno
 import shlex
 import subprocess
 
-
-__version__ = '0.2.2'
-
-
 class FFmpeg(object):
     """Wrapper for various `FFmpeg <https://www.ffmpeg.org/>`_ related applications (ffmpeg,
     ffprobe).

@@ -13,3 +13,6 @@
  - Input the USERNAME and PASSWORD and URL ORGANICATION to login (library card)
  - Input all the url Course need download, Enter to start download
  - Video demo: [video](https://drive.google.com/file/d/16H9RCfoAGddRbjaV98vG6IXYeJSYasIx/view)
+# Note
+ - I using ffmpeg so you must create environment variable for ffmpeg
+ 

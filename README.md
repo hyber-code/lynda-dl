@@ -14,5 +14,7 @@
  - Input all the url Course need download, Enter to start download
  - Video demo: [video](https://drive.google.com/file/d/16H9RCfoAGddRbjaV98vG6IXYeJSYasIx/view)
 # Note
- - I using ffmpeg so you must create environment variable for ffmpeg
- 
+ - I using ffmpeg so you must create environment variable for ffmpeg [video](https://www.youtube.com/watch?v=DpsJH1keQPA)
+# Contact:
+ - Facebook : 100011734236090
+ - Email : hatienloi261299@gmail.com
